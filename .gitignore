@@ -1,0 +1,18 @@
+# OS/editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+
+# Local secrets and logs
+.env
+.env.*
+!.env.example
+*.log
+
+# Temporary/build artifacts
+.cache/
+.tmp/
+coverage/
+node_modules/
